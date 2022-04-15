@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/font.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- FAVICON -->
+    <link
+      rel="icon"
+      href="https://www.hyundai.com/etc/designs/hyundai/ww/favicon.ico"
+    />
   </head>
   <body>
     <!-- HEADER -->
@@ -293,9 +299,16 @@
     <!-- //FOOTER -->
 
     <!-- JS -->
-    <script src="/backend/js/ajaxPromiseHelper.js"></script>
-    <script src="/backend/js/content.js"></script>
-    <script src="/backend/js/social.js"></script>
-    <script src="/assets/js/index.js"></script>
+    <script src="./backend/js/ajaxPromiseHelper.js"></script>
+    <script src="./backend/js/content.js"></script>
+    <script src="./backend/js/social.js"></script>
+    <script src="./assets/js/index.js"></script>
+
+    <!-- popup -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.min.js"></script>
+    <script src="../js/notice.js"></script>
+    <script>
+      Notice.init('전우열', './22.04.11_전우열.pdf');
+    </script>
   </body>
 </html>
